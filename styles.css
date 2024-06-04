@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Open Sans, sans serif;
+    font-family: "Open Sans", sans serif;
   }
 
   img {
@@ -46,6 +46,7 @@
 
   .box-items {
     display: flex;
+    justify-content: space-between;
     width: 80%;
     padding: 50px;
     margin-top: 3%;
@@ -63,7 +64,9 @@
   hr {
     border-color: #80684f;
     border-width: 0.25px;
+    margin-top: 1.25em;
   }
+
   .amount {
     font-size: large;
   }
@@ -76,6 +79,10 @@
 
   .price {
     padding-left: 300px;
+  }
+
+  .five {
+    padding-left: 319px;
   }
 
   .add-on {
@@ -95,7 +102,7 @@
     font-size: 11px;
     position: absolute;
     left: 40px;
-    top: 65px;
+    top: 66px;
     padding: 0 2px;
   }
 
@@ -141,7 +148,9 @@
 
   .submit-line {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-right: 350px; 
   }
 
   .order-button {
