@@ -24,20 +24,22 @@
         
             <div class="box items">
             <h2>ITEMS</h2>
-            <div>1x Cappuccino $6</div>
-                <div>Light foam</div>
-            <div>1x Cappuccino $8</div>
-                <div>Light milk</div>
-                <div>Double espresso</div>
-            <div>1x Croissant $5</div>
-                <div>Butter</div>
+            <div class="menu-item"><div class="amount">1x</div> <div class="item-name">Cappuccino</div> <div class="price">$6</div></div>
+                <div class="add-on">Light foam</div>
+                <hr>
+            <div class="menu-item"><div class="amount">1x</div> <div class="item-name">Cappuccino</div> <div class="price">$8</div></div>
+                <div class="add-on">Light milk</div>
+                <div class="add-on">Double espresso</div>
+                <hr>
+            <div class="menu-item"><div class="amount">1x</div> <div class="item-name">Croissant</div> <div class="price">$5</div></div>
+                <div class="add-on">Butter</div>
             </div>
     
             <div class="input-group">
                 <div class="box name">
                 <h2>NAME</h2>
                 <form>
-                    <label for="name" class="input-label">Name for order</label>
+                    <label for="name" class="input-name">Name for order</label>
                     <input id="name" class="input-box" />
                  </form>
                 </div>
@@ -45,11 +47,10 @@
             <div class="box payment">
             <h2>PAYMENT</h2>
             <form>
-                <label for="payment" class="input-label">Card number</label>
+                <label for="payment" class="input-card">Card number</label>
                 <input id="payment" class="input-box" />
                 <br>
-                <br>
-                <label for="ccv" class="input-label">CCV number</label>
+                <label for="ccv" class="input-ccv">CCV number</label>
                 <input id="ccv" class="input-box" />
             </form>
             </div>
@@ -58,10 +59,13 @@
         </div>
 
         <div class="submit">
-            <p>Subtotal: $19.00</p>
-            <p>Tax: $1.24</p>
-            <p><b>Total: $20.24</b></p>
-            <button>Place order</button>
+            <div class="submit-line"><div class="left-side">Subtotal:</div> <div class="right-side">$19.00</div></div>
+            <br>
+            <div class="submit-line"><div class="left-side">Tax:</div> <div class="right-side">$1.24</div></div>
+            <br>
+            <div class="submit-line"><div class=left-side"><b>Total:</b></div> <div class="right-side"><b>$20.24</b></div></div>
+            <br>
+            <button class="order-button">Place order</button>
         </div>
         </div>
 
